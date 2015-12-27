@@ -1,23 +1,23 @@
 <?php
     $navItems = array (
         array (
-            "key" => "index.php",
+            "key" => "#home",
             "value" => "Home"
         ),
         array (
-            "key" => "profile.php",
+            "key" => "#profile",
             "value" => "Profile"
         ),
         array (
-            "key" => "experience.php",
+            "key" => "#experience",
             "value" => "Experience"
         ),
         array (
-            "key" => "skills.php",
+            "key" => "#skills",
             "value" => "Skills"
         ),
         array (
-           "key" => "portfolio.php",
+           "key" => "#portfolio",
             "value" => "Portfolio"
         )
     );
