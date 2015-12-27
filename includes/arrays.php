@@ -5,12 +5,20 @@
             "value" => "Home"
         ),
         array (
-           "key" => "portfolio.php",
-            "value" => "Portfolio"
+            "key" => "profile.php",
+            "value" => "Profile"
         ),
         array (
-            "key" => "resume.php",
-            "value" => "Resume"
+            "key" => "experience.php",
+            "value" => "Experience"
         ),
+        array (
+            "key" => "skills.php",
+            "value" => "Skills"
+        ),
+        array (
+           "key" => "portfolio.php",
+            "value" => "Portfolio"
+        )
     );
 ?>

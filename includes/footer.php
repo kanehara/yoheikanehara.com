@@ -1,6 +1,9 @@
-        </div>
-        <div class="mastfoot">
-            kanehara@umich.edu
+                <div class="mastfoot">
+                    <span class="glyphicon glyphicon-envelope" aria-hidden="true">
+                        kanehara@umich.edu
+                    </span>
+                </div>
+            </div>
         </div>
     </div>
     <footer>

@@ -11,6 +11,7 @@
 
     <link rel="stylesheet" type="text/css" href="includes/global.css">
     <link rel="stylesheet" type="text/css" href="includes/resume.css">
+    <link rel="stylesheet" type="text/css" href="includes/home.css">
     <!-- Google Font - Cabin -->
     <link href='https://fonts.googleapis.com/css?family=Cousine:400,700' rel='stylesheet' type='text/css'>
     <title>Yohei Kanehara</title>
@@ -19,9 +20,4 @@
     <div class="site-wrapper">  
         <div class="masthead">
             <?php include('includes/nav.php'); ?>
-        </div>
-        <div class="container">
-        <br/>
-        <br/>
-        <br/>
-        <br/>
+            <div class="site-inner">
