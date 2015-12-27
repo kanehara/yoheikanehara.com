@@ -8,16 +8,20 @@
     <link rel="stylesheet" 
     href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
 
-    <!-- Optional theme -->
-    <link rel="stylesheet" 
-    href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
 
     <link rel="stylesheet" type="text/css" href="includes/global.css">
+    <link rel="stylesheet" type="text/css" href="includes/resume.css">
+    <!-- Google Font - Cabin -->
+    <link href='https://fonts.googleapis.com/css?family=Cousine:400,700' rel='stylesheet' type='text/css'>
+    <title>Yohei Kanehara</title>
 </head>
 <body>
-    <div class="site-wrapper">
-        <div class="site-wrapper-inner">
-            <div class="cover-container">
-                <div class="masthead">
-                    <?php include('includes/nav.php'); ?>
-                </div>
+    <div class="site-wrapper">  
+        <div class="masthead">
+            <?php include('includes/nav.php'); ?>
+        </div>
+        <div class="container">
+        <br/>
+        <br/>
+        <br/>
+        <br/>

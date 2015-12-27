@@ -1,4 +1,3 @@
 <?php include('includes/header.php'); ?>
-<div class="inner cover">
-</div>
+            <a href="resume/Yohei-Kanehara-Resume.pdf" target="_blank">PDF</a>
 <?php include('includes/footer.php'); ?>
