@@ -1,4 +1,31 @@
-.homeDiv {
-    width: 100%;
-    text-align:center;
+.cover {
+    margin: 0px;
+    padding : 0px;
+    background-image: url('../images/Mtns.jpg');
+    background-size: cover;
+    z-index: 1;
+}
+
+.cover .container {
+    position: relative;
+    top: 28%;
+    text-align: center;
+}
+
+@media (max-width: 800px) {
+    h1 {
+        font-size: 30px;
+    }
+    h2 {
+        font-size: 14px;
+    }
+}
+
+@media (max-height: 400px) {
+    h1 {
+        font-size: 30px;
+    }
+    h2 {
+        font-size: 14px;
+    }
 }

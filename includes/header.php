@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -15,9 +15,9 @@
     <link rel="stylesheet" type="text/css" href="styling/skills.css">
     <link rel="stylesheet" type="text/css" href="styling/portfolio.css">
     <link rel="stylesheet" type="text/css" href="styling/home.css">
+    <link rel="stylesheet" type="text/css" href="styling/contact.css">
     <!-- Google Font - Cabin -->
     <link href='https://fonts.googleapis.com/css?family=Cousine:400,700' rel='stylesheet' type='text/css'>
     <title>Yohei Kanehara</title>
 </head>
 <body>
-    <div class="site-wrapper">  

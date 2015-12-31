@@ -8,8 +8,8 @@
     left: 25px;
     top: 5%;
     z-index:999;
+    text-align:center;
 }
-
 
 .masthead-nav > li {
         display: block;
@@ -25,6 +25,7 @@
         color: #fff; /* IE8 proofing */
         color: rgba(255,255,255,.75);
         border-bottom: 2px solid transparent;
+        font-weight: normal;
 }
 .masthead-nav > li > a:hover,
 .masthead-nav > li > a:focus {
@@ -37,4 +38,21 @@
 .masthead-nav > .active > a:focus {
         color: #fff;
         border-bottom-color: #fff;
+}
+
+@media (max-width:800px) {
+    .masthead-nav > li {
+        display:inline-block;
+        text-size:10px;
+        margin: 7px;
+    }
+    .masthead {
+        top: 0;
+        font-size: 11px;
+        left: 0;
+        right: 0;
+    }
+    .masthead > li {
+        margin : 5px;
+    }
 }

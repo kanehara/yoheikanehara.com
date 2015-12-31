@@ -1,5 +1,5 @@
 .profileDiv {
-    background-color: red;
-    width: 100%;
-    height: 100%;
+    background-color: papayawhip;
+    text-align:center;
+    z-index: 2;
 }

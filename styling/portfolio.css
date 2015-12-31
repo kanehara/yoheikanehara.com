@@ -1,2 +1,5 @@
-.portfolioDiv {
+.portDiv {
+    background-color: mintcream;
+    text-align:center;
+    z-index: 5;
 }

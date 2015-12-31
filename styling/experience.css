@@ -1,2 +1,5 @@
-.experienceDiv {
+.expDiv {
+    background-color: mintcream;
+    text-align:center;
+    z-index: 3;
 }
