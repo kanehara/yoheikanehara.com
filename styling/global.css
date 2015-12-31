@@ -29,7 +29,6 @@ html {
 body {
     text-align: center;
     font-family: 'Cousine'; !important
-    background-color: #333;
 }
 
 .container {
@@ -43,20 +42,27 @@ h1 {
 
 h2 {
     font-size: 40px;
+    color:skyblue;
 }
 
 h3 {
     font-size: 22px;
     font-weight: normal;
+    color:skyblue;
+}
+/*
+* HR
+*/
+hr {
+    margin: 40px 0px;
+    border-color: #888;
+    border-width: 1.7px;
+    opacity: 0.6;
 }
 
 /*
-* Row
+* Resizing
 */
-.row {
-    margin-left: 20px;
-    margin-right: 0px;
-}
 
 @media (max-width: 1080px) {
     h1 {
@@ -66,7 +72,11 @@ h3 {
         font-size: 32px;
     }
     h3 {
-        font-size: 18px;
+        font-size: 20px;
+    }
+    .hikingDiv {
+        width: 300px;
+        height: 300px;
     }
 }
 
@@ -78,10 +88,14 @@ h3 {
         font-size: 20px;
     }
     h3 {
-        font-size: 12px;
+        font-size: 16px;
     }
     .container {
         padding: 8px;
+    }
+    .hikingDiv {
+        width: 200px;
+        height: 200px;
     }
 }
 
