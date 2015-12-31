@@ -18,7 +18,8 @@ function resizeCover() {
 function applyCoverListener() {
     resizeCover();
     $(window).on('resize', function() {
-        resizeCover();
+        if ($(window).height() > 400)
+            resizeCover();
     });
 }
 

@@ -80,6 +80,9 @@ h3 {
     h3 {
         font-size: 12px;
     }
+    .container {
+        padding: 8px;
+    }
 }
 
 @media (max-height: 400px) {
@@ -91,5 +94,8 @@ h3 {
     }
     h3 {
         font-size: 12px;
+    }
+    .cover {
+        height: 400px;
     }
 }
