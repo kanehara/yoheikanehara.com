@@ -10,14 +10,13 @@
 
     <link rel="stylesheet" type="text/css" href="styling/header.css">
     <link rel="stylesheet" type="text/css" href="styling/profile.css">
-    <link rel="stylesheet" type="text/css" href="styling/experience.css">
+    <link rel="stylesheet" type="text/css" href="styling/resume.css">
     <link rel="stylesheet" type="text/css" href="styling/skills.css">
     <link rel="stylesheet" type="text/css" href="styling/portfolio.css">
     <link rel="stylesheet" type="text/css" href="styling/home.css">
     <link rel="stylesheet" type="text/css" href="styling/contact.css">
     <!-- Google Font - Cabin -->
-    <link href='https://fonts.googleapis.com/css?family=Cousine:400,700' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Roboto+Mono:400,700,300' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" type="text/css" href="styling/global.css">
     <title>Yohei Kanehara</title>
 </head>
-<body style="background-color: black;">

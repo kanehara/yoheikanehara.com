@@ -1,14 +1,25 @@
 /*
  * Header
  */
+
 .masthead {
-    background-color: #333;
-    position: fixed;
+    background-color: rgba(41, 41, 41, 0);
     width: auto;
-    left: 25px;
-    top: 5%;
     z-index:999;
     text-align:center;
+    border-left: 2px solid white;
+    position: absolute;
+    left: 25px;
+}
+
+.masthead-fixed {
+    position: fixed;
+    top: 5%;
+}
+
+.masthead-nav {
+    padding: 0;
+    margin: 10px;
 }
 
 .masthead-nav > li {
@@ -22,37 +33,61 @@
         padding-right: 0;
         padding-left: 0;
         font-weight: bold;
-        color: #fff; /* IE8 proofing */
-        color: rgba(255,255,255,.75);
+        color: white;
         border-bottom: 2px solid transparent;
         font-weight: normal;
 }
 .masthead-nav > li > a:hover,
 .masthead-nav > li > a:focus {
         background-color: transparent;
-        border-bottom-color: #fff;
-        border-bottom-color: #fff;
+        border-bottom-color: white;
 }
 .masthead-nav > .active > a,
 .masthead-nav > .active > a:hover,
 .masthead-nav > .active > a:focus {
-        color: skyblue;
-        border-bottom-color: skyblue;
+        color: #DAD9AF;
+        border-bottom-color: #DAD9AF;
 }
 
 @media (max-width:800px) {
     .masthead-nav > li {
         display:inline-block;
-        text-size:10px;
         margin: 7px;
     }
     .masthead {
-        top: 0;
-        font-size: 11px;
+        font-size: 12px;
         left: 0;
         right: 0;
+        border-left: none;
+        background-color: rgba(41, 41, 41, 1);
+        position: absolute;
+    }
+    .masthead-fixed {
+        position: fixed;
+        top: 0;
     }
     .masthead > li {
         margin : 5px;
     }
+    /* Top Margin for nav bar */
+    h2 {
+        margin-top: 65px;
+    }
 }
+
+@media (max-width:500px) {
+    .masthead {
+        font-size: 10px;
+    }
+    /* Top margin for nav bar */
+    h2 {
+        margin-top: 80px;
+    }
+}
+
+@media (max-width:375px) {
+    .masthead {
+        font-size: 6px;
+    }
+}
+

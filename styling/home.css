@@ -1,14 +1,41 @@
 .cover {
     margin: 0px;
     padding : 0px;
-    background-image: url('../images/Mtns.jpg');
-    background-size: cover;
     z-index: 1;
+    background-image:url("../images/cloud.png");
+    background-size:cover;
 }
 
 .cover .container {
+    z-index: 1;
     position: relative;
-    top: 28%;
+    top: 20%;
+    margin: 0 auto;
     text-align: center;
 }
 
+.scrolldown {
+    background-color:black;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 
+}
+
+.cover .overlay {
+    background-color: #140327;
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    z-index: 0;
+    opacity: .85;
+    height: inherit;
+}
+
+@media (max-height: 400px) {
+    .cover {
+        height: 400px;
+    }
+}

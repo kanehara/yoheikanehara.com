@@ -23,12 +23,9 @@ a:hover {
 /*
  * Base structure
  */
-html {
-    font-family: 'Cousine'; !important
-}
 body {
     text-align: center;
-    font-family: 'Cousine'; !important
+    font-family: 'Roboto Mono'; !important
 }
 
 .container {
@@ -36,20 +33,38 @@ body {
     padding: 40px 180px;
 }
 
+
+
 h1 {
     font-size: 55px;
 }
 
 h2 {
     font-size: 40px;
-    color:skyblue;
 }
 
 h3 {
     font-size: 22px;
     font-weight: normal;
-    color:skyblue;
+    text-align:left;
+    margin-bottom: 30px;
 }
+
+h1, h2, h3 {
+    color:#DAD9AF;
+    text-align:center;
+}
+
+.row {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+p {
+    color : white;
+    text-align: left;
+}
+
 /*
 * HR
 */
@@ -89,6 +104,7 @@ hr {
     }
     h3 {
         font-size: 16px;
+        text-align: center;
     }
     .container {
         padding: 8px;
@@ -97,9 +113,12 @@ hr {
         width: 200px;
         height: 200px;
     }
+    p {
+        text-align: center;
+    }
 }
 
-@media (max-height: 400px) {
+@media (max-height: 500px) {
     h1 {
         font-size: 30px;
     }
@@ -109,7 +128,5 @@ hr {
     h3 {
         font-size: 12px;
     }
-    .cover {
-        height: 400px;
-    }
 }
+

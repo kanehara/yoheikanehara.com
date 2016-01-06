@@ -9,8 +9,8 @@
             "value" => "Profile"
         ),
         array (
-            "key" => "#experience",
-            "value" => "Experience"
+            "key" => "#resume",
+            "value" => "Resume"
         ),
         array (
             "key" => "#skills",
@@ -19,6 +19,10 @@
         array (
            "key" => "#portfolio",
             "value" => "Portfolio"
+        ),
+        array (
+            "key" => "#contact",
+            "value" => "Contact"
         )
     );
 ?>

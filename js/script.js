@@ -5,6 +5,7 @@
 $(window).ready(function() {
     applySelectListener();
     applyCoverListener();
+    applyNavListener();
 });
 
 /*
@@ -50,6 +51,30 @@ function applySelectListener() {
     setSelectedNav();
     $(window).on('hashchange', function() {
         setSelectedNav();
+    });
+}
+
+/*
+*   NAV BAR SCROLL SCRIPTS
+*/
+function triggerShowNav() {
+    
+}
+
+function triggerHideNav() {
+
+}
+
+function applyNavListener() {
+    $(window).scroll(function() {
+        if($(window).scrollTop() > $('.cover').height()) {
+            $('.masthead').addClass('masthead-fixed');
+            triggerShowNav();
+        }
+        if ($(window).scrollTop() < $('.cover').height()) {
+            $('.masthead').removeClass('masthead-fixed');
+            triggerHideNav();
+        }
     });
 }
 

@@ -16,5 +16,4 @@
     </script>
     <script type="text/javascript" src="js/script.js"></script>
 </footer>
-</body>
 </html>
