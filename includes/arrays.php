@@ -1,27 +1,27 @@
 <?php
     $navItems = array (
         array (
-            "key" => "#home",
+            "key" => "#Home",
             "value" => "Home"
         ),
         array (
-            "key" => "#profile",
+            "key" => "#Profile",
             "value" => "Profile"
         ),
         array (
-            "key" => "#resume",
+            "key" => "#Resume",
             "value" => "Resume"
         ),
         array (
-            "key" => "#skills",
+            "key" => "#Skills",
             "value" => "Skills"
         ),
         array (
-           "key" => "#portfolio",
+           "key" => "#Portfolio",
             "value" => "Portfolio"
         ),
         array (
-            "key" => "#contact",
+            "key" => "#Contact",
             "value" => "Contact"
         )
     );

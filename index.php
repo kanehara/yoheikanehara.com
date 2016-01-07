@@ -1,30 +1,26 @@
 <?php include('includes/header.php'); ?> 
-<body style="font-weight: 300; background-color:#333;" data-spy="scroll" data-target="#navHeader">
+<body data-spy="scroll" data-target="#navEl">
 <div> 
-    <div id="home" class="cover" data-src="/images/background.jpg" data-position="bottom right">
+    <div id="Home" class="cover" data-src="/images/background.jpg" data-position="bottom right">
         <?php include('home.php'); ?>
     </div>
-    <div id="profile" class="profileDiv">
+    <div id="Profile" class="profileDiv">
         <div class="masthead">
             <?php include('includes/nav.php'); ?>
         </div>
         <?php include('profile.php'); ?>
     </div>
-    <div id="resume" class="resumeDiv">
+    <div id="Resume" class="resumeDiv">
         <?php include('resume.php'); ?>
     </div>
-    <div id="skills" class="skillsDiv">
+    <div id="Skills" class="skillsDiv">
         <?php include('skills.php'); ?>
     </div>
-    <div id="portfolio" class="portDiv">
+    <div id="Portfolio" class="portDiv">
         <?php include('port.php'); ?>
     </div>
-    <div id="contact" class="contactDiv">
-        <div class="container">
-            <span class="glyphicon glyphicon-envelope" aria-hidden="true">
-            </span>
-            kanehara@umich.edu
-        </div>
+    <div id="Contact" class="contactDiv">
+        <?php include('contact.php'); ?>
     </div>
 </div>
 </body>
