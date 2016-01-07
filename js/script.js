@@ -5,6 +5,7 @@
 $(window).ready(function() {
     applyCoverListener();
     applyNavListener();
+    applyMobileDesktopConfig();
 });
 
 /*
@@ -77,3 +78,38 @@ $(function() {
         }
     });
 });
+
+
+/**
+   * Determine the mobile operating system.
+    * This function either returns 'iOS', 'Android' or 'unknown'
+     *
+      * @returns {String}
+       */
+function getMobileOperatingSystem() {
+    var userAgent = navigator.userAgent || navigator.vendor || window.opera;
+    if( userAgent.match( /iPad/i ) || userAgent.match( /iPhone/i ) || userAgent.match( /iPod/i ) )
+    {
+        return 'iOS';
+    }
+    else if( userAgent.match( /Android/i ) )
+    {
+        return 'Android';
+    }
+    else
+    {
+        return 'unknown';
+    }
+}
+
+// This function detects the OS and styles certain CSS elements dynamically
+function applyMobileDesktopConfig() {
+    var OS = getMobileOperatingSystem();
+    if (OS == "iOS" || OS == "Android") {
+        $('#navHeader').addClass('masthead-nav-mobile');
+    }
+    else {
+        $('#navHeader').addClass('masthead-nav-desktop');
+    }
+}
+
