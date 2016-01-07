@@ -5,7 +5,7 @@
 .masthead {
     background-color: rgba(41, 41, 41, 0);
     width: auto;
-    z-index:999;
+    z-index:4;
     text-align:center;
     border-left: 2px solid white;
     position: absolute;
@@ -55,7 +55,6 @@
     }
     .masthead {
         font-size: 12px;
-        left: 0;
         right: 0;
         border-left: none;
         background-color: rgba(41, 41, 41, 1);
