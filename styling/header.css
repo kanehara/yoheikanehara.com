@@ -36,10 +36,12 @@
         border-bottom: 2px solid transparent;
         font-weight: normal;
 }
-.masthead-nav > li > a:hover,
+.masthead-nav > li > a:hover {
+        border-bottom-color: white;
+        background-color: transparent;
+}
 .masthead-nav > li > a:focus {
         background-color: transparent;
-        border-bottom-color: white;
 }
 .masthead-nav > .active > a,
 .masthead-nav > .active > a:hover,
