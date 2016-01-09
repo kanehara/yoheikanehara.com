@@ -4,19 +4,24 @@
 
 /* Links */
 a,
-a:focus,
+a:focus {
+        color: darkorchid;
+        text-decoration: none;
+}
+
 a:hover {
-        color: #aaa;
+        color: #DAD9AF;
+        text-decoration: none;  
 }
 
 /* Custom default button */
 .btn-default,
 .btn-default:hover,
 .btn-default:focus {
-        color: #333;
+        color: white;
         text-shadow: none; /* Prevent inheritence from `body` */
-        background-color: #fff;
-        border: 1px solid #fff;
+        background-color: #1A8598;
+        border: 1px solid #333;
 }
 
 
@@ -27,7 +32,7 @@ body {
     text-align: center;
     position: relative;
     font-weight: 300; 
-    background-color:#333;
+    background-color: black;
     color: white;
     overflow-x: hidden;
     font-family: 'Roboto Mono'; !important
@@ -78,6 +83,29 @@ hr {
     border-color: #DAD9AF;
     border-width: 1.7px;
     opacity: 0.6;
+}
+
+/*
+* Down Arrow Divs
+*/
+.purpleDownArrow {
+    height: 0;
+    width: 0;
+    margin-left: auto;
+    margin-right: auto;
+    border-top: 15px solid #180D32;
+    border-left: 15px solid transparent;
+    border-right: 15px solid transparent;
+}
+
+.blueDownArrow {
+    height: 0;
+    width: 0;
+    margin-left: auto;
+    margin-right: auto;
+    border-top: 15px solid #1A8598;
+    border-left: 15px solid transparent;
+    border-right: 15px solid transparent;
 }
 
 /*

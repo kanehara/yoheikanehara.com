@@ -1,7 +1,7 @@
 <div class="container">
     <h2>Skills</h2>
     <hr/>
-    <h3>Programming Languages</h3>
+    <h3>Programming</h3>
         <div class="row" style="text-align:left;">
             <div class="col-md-4">
                 <ul class="skillsList">
@@ -23,31 +23,8 @@
                 <ul class="skillsList">
                     <li>XML</li>
                     <li>CSS</li>
-                </ul>
-            </div>
-        </div>
-    <hr/>
-    <h3>Applications</h3>
-        <div class="row">
-            <div class="col-md-4">
-                <ul class="skillsList">
-                    <li>VIM</li>
-                    <li>Eclipse</li>
-                    <li>Xcode</li>
-                </ul>
-            </div>
-            <div class="col-md-4">
-                <ul class="skillsList">
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                </ul>
-            </div>
-            <div class="col-md-4">
-                <ul class="skillsList">
-                    <li></li>
-                    <li></li>
-                    <li></li>
+                    <li>BootStrap</li>
+                    <li>jQuery</li>
                 </ul>
             </div>
         </div>

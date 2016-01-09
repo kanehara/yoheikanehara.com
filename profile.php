@@ -9,7 +9,7 @@
             </p>
         </div>
         <div class="col-md-4 text-center">
-            <img src="../images/Hiking.jpg" alt="Hiking" height="200px" width="200px"/>
+            <img src="../images/kanehara.jpg" alt="Hiking" height="240px" width="135px" style="border-radius: 20%;"/>
         </div>
         <div class="col-md-4">
             <h3>Details</h3>

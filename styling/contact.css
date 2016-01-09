@@ -1,4 +1,11 @@
 .contactDiv {
-    background-color:#1A8598;
-    color:#DAD9AF;
+    background-color:black;
+    color:white;
+    font-size: 18px;
+    padding-bottom: 30px;
+    text-align: left;
+}
+
+.contactRow {
+  margin: 20px;
 }

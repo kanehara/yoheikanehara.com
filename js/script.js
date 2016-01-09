@@ -3,7 +3,7 @@
 */
 
 $(window).ready(function() {
-    applyCoverListener();
+    applyResizeListener();
     applyNavListener();
     applyMobileDesktopConfig();
 });
@@ -16,12 +16,15 @@ function resizeCover() {
     $('.cover').css({ height: ($(window).height()) + 'px' });
 }
 
-function applyCoverListener() {
+function applyResizeListener() {
     resizeCover();
-    $(window).on('resize', function() {
-        if ($(window).height() > 400)
-            resizeCover();
-    });
+    var OS = getMobileOperatingSystem();
+    if (OS != "Android" && OS != "iOS") {
+        $(window).on('resize', function() {
+            if ($(window).height() > 400)
+                resizeCover();
+        });
+    }
 }
 
 /*
