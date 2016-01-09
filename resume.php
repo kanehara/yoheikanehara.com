@@ -1,8 +1,10 @@
 <div class="container">
     <h2>Resume</h2>
-    <span class="glyphicon glyphicon-file" style="color:#1A8598;">
-    </span>
-    <a href="resume/Yohei-Kanehara-Resume.pdf" target="_blank">PDF</a>
+    <a href="resume/Yohei-Kanehara-Resume.pdf" target="_blank">
+        <span class="glyphicon glyphicon-file">
+        </span>
+        PDF
+    </a>
     <hr/>
     <h3>Education</h3>
     <div class="row">
