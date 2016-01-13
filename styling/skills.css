@@ -4,6 +4,7 @@
 }
 
 .skillsList {
-    text-align:left;
+    text-align: center;
     list-style-type: none;
+    padding: 0;
 }

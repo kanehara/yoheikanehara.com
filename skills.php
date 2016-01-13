@@ -1,50 +1,56 @@
+<?php include("includes/arrays.php"); ?>
+<div class="purpleDownArrow"></div>
 <div class="container">
-    <h2>Skills</h2>
-    <hr/>
-    <h3>Programming</h3>
-        <div class="row" style="text-align:left;">
-            <div class="col-md-4">
+    <h2 class="abraAppear">Skills</h2>
+    <hr class="abraAppearHr"/>
+    <h3 class="abraAppear">Programming</h3>
+        <div class="row abraAppear" style="text-align:left;">
+            <div class="col-xs-4">
                 <ul class="skillsList">
-                    <li>Java</li>
-                    <li>C++</li>
-                    <li>PHP</li>
-                    <li>HTML</li>
+                    <?php
+                    foreach($skills[0] as $skill) {
+                        echo("<li>$skill</li>");
+                    }
+                    ?>
                 </ul>
             </div>
-            <div class="col-md-4">
+            <div class="col-xs-4">
                 <ul class="skillsList">
-                    <li>SQL</li>
-                    <li>JavaScript</li>
-                    <li>Perl</li>
-                    <li>Objective-C</li>
+                    <?php
+                    foreach($skills[1] as $skill) {
+                        echo("<li>$skill</li>");
+                    }
+                    ?>
                 </ul>
             </div>
-            <div class="col-md-4">
+            <div class="col-xs-4">
                 <ul class="skillsList">
-                    <li>XML</li>
-                    <li>CSS</li>
-                    <li>BootStrap</li>
-                    <li>jQuery</li>
-                </ul>
-            </div>
-        </div>
-    <hr/>
-    <h3>Languages</h3>
-        <div class="row">
-            <div class="col-md-4">
-                <ul class="skillsList">
-                    <li>English</li>
-                </ul>
-            </div>
-            <div class="col-md-4">
-                <ul class="skillsList">
-                    <li>Japanese (Conversational)</li>
-                </ul>
-            </div>
-            <div class="col-md-4">
-                <ul class="skillsList">
-                    <li>German (Elementary)</li>
+                    <?php
+                    foreach($skills[2] as $skill) {
+                        echo("<li>$skill</li>");
+                    }
+                    ?>
                 </ul>
             </div>
         </div>
+    <hr class="abraAppearHr"/>
+    <h3 class="abraAppear">Languages</h3>
+        <div class="row abraAppear">
+            <div class="col-xs-4">
+                <ul class="skillsList">
+                  <li>English<br/>(Fluent)</li>
+                </ul>
+            </div>
+            <div class="col-xs-4">
+                <ul class="skillsList">
+                  <li>Japanese<br/>(Conversational)</li>
+                </ul>
+            </div>
+            <div class="col-xs-4">
+                <ul class="skillsList">
+                  <li>German<br/>(Elementary)</li>
+                </ul>
+            </div>
+        </div>
+    <hr class='abraAppearHr'/>
 </div>

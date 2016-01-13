@@ -6,5 +6,7 @@
     <!-- Latest compiled and minified JavaScript -->
     <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
     <script type="text/javascript" src="js/script.js"></script>
+    <script type="text/javascript" src="js/typed.js"></script>
+    <script type="text/javascript" src="js/abra.js"></script>
 </footer>
 </html>

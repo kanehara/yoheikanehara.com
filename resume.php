@@ -1,13 +1,14 @@
+<div class="blueDownArrow"></div>
 <div class="container">
-    <h2>Resume</h2>
-    <a href="resume/Yohei-Kanehara-Resume.pdf" target="_blank">
+    <h2 class="abraAppear">Resume</h2>
+    <a href="resume/Yohei-Kanehara-Resume.pdf" target="_blank" class="btn btn-default abraAppear">
         <span class="glyphicon glyphicon-file">
         </span>
         PDF
     </a>
-    <hr/>
-    <h3>Education</h3>
-    <div class="row">
+    <hr class="abraAppearHr"/>
+    <h3 class="abraAppear">Education</h3>
+    <div class="row abraAppear">
         <div class="col-md-4">
         <p>
             <span class="blueHeading">
@@ -27,7 +28,7 @@
         </p>
         </div>
     </div>
-    <div class="row">
+    <div class="row abraAppear">
         <div class="col-md-4">
         <p>
             <span class="blueHeading">
@@ -48,9 +49,9 @@
         </p>
         </div>
     </div>
-    <hr/>
-    <h3>Experience</h3>
-    <div class="row">
+    <hr class="abraAppearHr"/>
+    <h3 class="abraAppear">Experience</h3>
+    <div class="row abraAppear">
         <div class="col-md-4">
         <p>
             <span class="blueHeading">
@@ -70,7 +71,7 @@
         </p>
         </div>
     </div>
-    <div class="row">
+    <div class="row abraAppear">
         <div class="col-md-4">
         <p>
             <span class="blueHeading">
@@ -92,9 +93,54 @@
           </p>
         </div>
     </div>
-    <hr/>
-    <h3  id="Awards">Awards</h3>
-    <div class="row">
+    <div class="row abraAppear">
+        <div class="col-md-4">
+        <p>
+            <span class="blueHeading">
+                <span class="resumeHeading">
+                <strong>UMICH Computer Aided Engineering Network (CAEN)</strong><br/>
+                </span>
+            Audio Programmer<br/>    
+            </span>
+            Jan 2014 - May 2015<br/>
+            Ann Arbor, MI<br/>
+        </p>
+        </div>
+        <div class="col-md-8">
+        <p>
+            Working part time as a student, I programmed audio processing chains in lecture room recording systems.
+          I was also responsible for troubleshooting recording equipment and restoring damaged audio with post production
+          treatment.
+        </p>
+        </div>
+    </div>
+    <div class="row abraAppear">
+        <div class="col-md-4">
+        <p>
+            <span class="blueHeading">
+                <span class="resumeHeading">
+                <strong>UMICH Solar Heliospheric Group</strong><br/>
+                </span>
+            Audification Research Assistant<br/>    
+            </span>
+            Sep 2012 - April 2014<br/>
+            Ann Arbor, MI<br/>
+        </p>
+        </div>
+        <div class="col-md-8">
+        <p>
+            As part of Unviersity of Michigan's Undrgraduate Research Opportunity Program (UROP), I was a research assistant
+          of the Solar Heliospheric Group and a part of the new field of data audification - the process of transcribing
+          big data into sound for analysis.  I developed modules in MATLAB and MAX/MSP to audify NASA's public data on
+          solar winds with the aim of identifying solar flares and coronal mass ejections.  For more information, 
+          <a href="resume/audification_ICME_kanehara.pdf" target="_blank">here</a> 
+          is a paper I wrote on the subject.
+        </p>
+        </div>
+    </div>
+    <hr class="abraAppearHr"/>
+    <h3  id="Awards" class="abraAppear">Awards</h3>
+    <div class="row abraAppear">
         <div class="col-md-4">
         <p>
             <span class="blueHeading">
@@ -116,12 +162,12 @@
         </p>
         </div>
     </div>
-    <div class="row">
+    <div class="row abraAppear">
         <div class="col-md-4">
         <p>
             <span class="blueHeading">
                 <span class="resumeHeading">
-                <strong>Startup Weekend Ann Arbor</strong><br/>
+                  <strong>Startup Weekend<br/>Ann Arbor</strong><br/>
                 </span>
             Finalist<br/>    
             </span>
@@ -138,4 +184,5 @@
         </p>
         </div>
     </div>
+    <hr class='abraAppearHr'/>
 </div>

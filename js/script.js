@@ -9,7 +9,7 @@ $(window).ready(function() {
 });
 
 /*
-*   RESIZING COVER PAGE
+*   COVER PAGE RESIZING
 */
 
 function resizeCover() {
@@ -32,7 +32,7 @@ function applyResizeListener() {
 */
 // controls the revealing of nav bar when scrolling from home screen
 function revealNav() {
-    var finalScrollPos = $('.cover').height()*.5 // the scroll position when nav is fully displayed
+    var finalScrollPos = $('.cover').height()*.8 // the scroll position when nav is fully displayed
     var percentScrolled = $(window).scrollTop()/finalScrollPos;
     percentScrolled = percentScrolled >= 1 ? 1 : percentScrolled;
     if ($(window).width() > 800) {
@@ -50,6 +50,14 @@ function revealNav() {
 }
 
 function applyNavListener() {
+    if($(window).scrollTop() > $('.cover').height()) {
+        $('.masthead').addClass('masthead-fixed');
+    }
+    if ($(window).scrollTop() < $('.cover').height()) {
+        $('.masthead').removeClass('masthead-fixed');
+        revealNav();
+    }
+    revealNav();
     $(window).scroll(function() {
         if($(window).scrollTop() > $('.cover').height()) {
             $('.masthead').addClass('masthead-fixed');
@@ -75,7 +83,7 @@ $(function() {
             if (target.length) {
                 $('html,body').animate({
                     scrollTop: target.offset().top
-                }, 600);
+                }, 2000);
                 return false;
             }
         }
@@ -114,5 +122,4 @@ function applyMobileDesktopConfig() {
     else {
         $('#navHeader').addClass('masthead-nav-desktop');
     }
-}
-
+} 

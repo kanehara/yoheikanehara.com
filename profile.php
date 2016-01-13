@@ -1,35 +1,39 @@
+<div class="purpleDownArrow"></div>
 <div class="container">
-    <h2>Profile</h2>
-    <hr>
+    <h2 class='abraAppear'>Profile</h2>
+    <hr class='abraAppearHr'>
     <div class="row">
-        <div class="col-md-4">
+        <div class="col-md-4 abraAppear">
             <h3>About Me</h3>
             <p>
             I am a software developer currently working at Ford Motor Company.  I graduated from the University of Michigan in May 2015.  I am always looking for something new and exciting to work.
             </p>
         </div>
-        <div class="col-md-4 text-center">
+        <div class="col-md-4 text-center abraAppear">
             <img src="../images/kanehara.jpg" alt="Hiking" height="240px" width="135px" style="border-radius: 20%;"/>
         </div>
-        <div class="col-md-4">
+        <div class="col-md-4 abraAppear">
             <h3>Details</h3>
             <p>
+              <span class="abraTypeWrap">
                 <strong>Name:</strong>
                 <br/>
-                Yohei Kanehara
+                <span id="profileName" class="abraType">Yohei Kanehara</span>
                 <br/>
                 <strong>Age:</strong>
                 <br/>
-                22
+                <span id="profileAge" class="abraType">22</span>
                 <br/>
                 <strong>Location:</strong>
                 <br/>
-                Ann Arbor, MI
+                <span id="profileLocation" class="abraType">Ann Arbor, MI</span>
                 <br/>
                 <strong>Favorite Language:</strong>
                 <br/>
-                Java
+                <span id="profileFavLanguage" class="abraType">Java</span>
+              </span>
             </p> 
         </div>        
     </div>
+    <hr class='abraAppearHr'/>
 </div>

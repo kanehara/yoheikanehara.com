@@ -1,0 +1,36 @@
+/*
+* Abra Transitions - modify these to customize transitions
+*/
+
+@keyframes abraAppearKFHr {
+    from {
+        opacity: 0;
+        width: 0%;
+    }
+}
+
+@keyframes abraAppearKF {
+    from { 
+        margin-left: -25px;
+        color: transparent;
+        opacity: 0;
+    }
+}
+
+.abraAppearTrans {
+    -webkit-animation: abraAppearKFHr 1.5s steps(60, end);
+    -moz-animation: abraAppearKFHr 1.5s steps(60, end);
+    -ms-animation: abraAppearKFHr 1.5s steps(60, end);
+    animation: abraAppearKF 1.5s steps(60, end);
+}
+
+.abraAppearTransHr {
+    -webkit-animation: abraAppearKFHr 1.5s steps(60, end);
+    -moz-animation: abraAppearKFHr 1.5s steps(60, end);
+    -ms-animation: abraAppearKFHr 1.5s steps(60, end);
+    animation: abraAppearKFHr 1.5s steps(60, end);
+}
+
+.abraTransparent {
+    opacity: 0;
+}
