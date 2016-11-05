@@ -5,22 +5,22 @@
 /* Links */
 a,
 a:focus {
-        color: darkorchid;
-        text-decoration: none;
+    color: darkorchid;
+    text-decoration: none;
 }
 
 a:hover {
-        color: #DAD9AF;
-        text-decoration: none;  
+    color: #DAD9AF;
+    text-decoration: none;
 }
 
 /* Custom default button */
 .btn-default,
 .btn-default:focus {
-        color: #DAD9AF;
-        text-shadow: none; /* Prevent inheritence from `body` */
-        background-color: darkorchid;
-        border: 1px solid #333;
+    color: #DAD9AF;
+    text-shadow: none; /* Prevent inheritence from `body` */
+    background-color: darkorchid;
+    border: 1px solid #333;
 }
 .btn-default:hover {
     color: darkorchid;

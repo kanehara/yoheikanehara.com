@@ -22,38 +22,38 @@
 }
 
 .masthead-nav > li {
-        display: block;
-        margin: 25px;
+    display: block;
+    margin: 25px;
 }
 .masthead-nav > li + li {
-        margin-left: 20px;
+    margin-left: 20px;
 }
 .masthead-nav > li > a {
-        padding-right: 0;
-        padding-left: 0;
-        font-weight: bold;
-        color: white;
-        border-bottom: 2px solid transparent;
-        font-weight: normal;
+    padding-right: 0;
+    padding-left: 0;
+    font-weight: bold;
+    color: white;
+    border-bottom: 2px solid transparent;
+    font-weight: normal;
 }
 .masthead-nav-desktop > li > a:hover {
-        border-bottom-color: white;
-        background-color: transparent;
+    border-bottom-color: white;
+    background-color: transparent;
 }
 .masthead-nav-desktop > li > a:focus {
-        background-color: transparent;
+    background-color: transparent;
 }
 .masthead-nav-mobile > li > a:hover,
 .masthead-nav-mobile > li > a:focus {
-        background-bottom-color: transparent;
-        background-color: transparent;
+    background-bottom-color: transparent;
+    background-color: transparent;
 }
 
 .masthead-nav > .active > a,
 .masthead-nav > .active > a:hover,
 .masthead-nav > .active > a:focus {
-        color: #DAD9AF;
-        border-bottom-color: #DAD9AF;
+    color: #DAD9AF;
+    border-bottom-color: #DAD9AF;
 }
 
 @media (max-width:800px) {
