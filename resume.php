@@ -13,26 +13,6 @@
         <p>
             <span class="blueHeading">
                 <span class="resumeHeading">
-                <strong>International Academy</strong><br/>
-                </span>
-                International Baccalaureate Diploma<br/>
-            </span>
-            April 2007 - May 2011<br/>
-            Bloomfield Hills, MI<br/>
-        </p>
-        </div>
-        <div class="col-md-8">
-        <p>
-            Consistantly ranked among the top 5 public high schools in the nation, the International Academy shaped the foundation of my education.  
-          As an International Baccalaureate school, the curriculum, students, and faculty encompassed diverse cultures and broadened my view of the world.
-        </p>
-        </div>
-    </div>
-    <div class="row abraAppear">
-        <div class="col-md-4">
-        <p>
-            <span class="blueHeading">
-                <span class="resumeHeading">
                 <strong>University of Michigan</strong><br/>
                 </span>
                 B.S.E. Computer Science<br/>

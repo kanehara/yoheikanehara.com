@@ -1,0 +1,7 @@
+{
+  "name": "yoheikanehara.com",
+  "version": "1.0.0",
+  "dependencies": {
+    "less": "^2.7.1"
+  }
+}
