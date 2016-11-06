@@ -1,11 +1,6 @@
 <div class="blueDownArrow"></div>
 <div class="container">
     <h2 class="abraAppear">Resume</h2>
-    <a href="resume/Yohei-Kanehara-Resume.pdf" target="_blank" class="btn btn-default abraAppear">
-        <span class="glyphicon glyphicon-file">
-        </span>
-        PDF
-    </a>
     <hr class="abraAppearHr"/>
     <h3 class="abraAppear">Education</h3>
     <div class="row abraAppear">
