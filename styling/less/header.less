@@ -1,0 +1,99 @@
+/*
+ * Header
+ */
+
+.masthead {
+    background-color: rgba(41, 41, 41, 0);
+    width: auto;
+    z-index:4;
+    text-align:center;
+    border-left: 2px solid white;
+    position: absolute;
+    left: 25px;
+}
+
+.masthead-fixed {
+    position: fixed;
+    top: 0;
+}
+
+.masthead-nav {
+    padding: 0;
+}
+
+.masthead-nav > li {
+    display: block;
+    margin: 25px;
+}
+.masthead-nav > li + li {
+    margin-left: 20px;
+}
+.masthead-nav > li > a {
+    padding-right: 0;
+    padding-left: 0;
+    font-weight: bold;
+    color: white;
+    border-bottom: 2px solid transparent;
+    font-weight: normal;
+}
+.masthead-nav-desktop > li > a:hover {
+    border-bottom-color: white;
+    background-color: transparent;
+}
+.masthead-nav-desktop > li > a:focus {
+    background-color: transparent;
+}
+.masthead-nav-mobile > li > a:hover,
+.masthead-nav-mobile > li > a:focus {
+    background-bottom-color: transparent;
+    background-color: transparent;
+}
+
+.masthead-nav > .active > a,
+.masthead-nav > .active > a:hover,
+.masthead-nav > .active > a:focus {
+    color: #DAD9AF;
+    border-bottom-color: #DAD9AF;
+}
+
+@media (max-width:800px) {
+    .masthead-nav > li {
+        display:inline-block;
+        margin: 7px;
+    }
+    .masthead {
+        font-size: 12px;
+        right: 0;
+        border-left: none;
+        background-color: rgba(41, 41, 41, 1);
+        position: absolute;
+    }
+    .masthead-fixed {
+        position: fixed;
+        top: 0;
+    }
+    .masthead > li {
+        margin : 5px;
+    }
+    /* Top Margin for nav bar */
+    h2 {
+        margin-top: 65px;
+    }
+}
+
+@media (max-width:500px) {
+    .masthead {
+        font-size: 10px;
+    }
+    /* Top margin for nav bar */
+    h2 {
+        margin-top: 80px;
+    }
+}
+
+@media (max-width:375px) {
+    .masthead {
+        font-size: 6px;
+    }
+}
+
