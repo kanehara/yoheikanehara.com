@@ -10,7 +10,7 @@
             </p>
         </div>
         <div class="col-md-4 text-center abraAppear">
-            <img src="../images/kanehara.jpg" alt="Hiking" height="240px" width="135px" style="border-radius: 20%;"/>
+            <img src="../images/kanehara.jpg" alt="Yohei Kanehara" class="profileImage"/>
         </div>
         <div class="col-md-4 abraAppear">
             <h3>Details</h3>
