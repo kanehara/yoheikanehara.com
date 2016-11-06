@@ -16,11 +16,6 @@
     <div id="Skills" class="skillsDiv">
         <?php include('skills.php'); ?>
     </div>
-<!--
-    <div id="Portfolio" class="portDiv">
-        <?php include('port.php'); ?>
-    </div>
--->
     <div id="Contact" class="contactDiv">
         <?php include('contact.php'); ?>
     </div>
