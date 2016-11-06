@@ -1,0 +1,24 @@
+{
+  "name": "yoheikanehara.com",
+  "description": "Yohei Kanehara's personal website",
+  "main": "",
+  "authors": [
+    "yohei.kanehara <yohei.kanehara@vodori.com>"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/kanehara/yoheikanehara.com",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "^3.1.1",
+    "typed.js": "^1.1.4",
+    "font-awesome": "^4.7.0",
+    "bootstrap": "^3.3.7"
+  }
+}
