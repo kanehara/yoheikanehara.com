@@ -22,15 +22,19 @@
                 <br/>
                 <strong>Age:</strong>
                 <br/>
-                <span id="profileAge" class="abraType">22</span>
+                <span id="profileAge" class="abraType">23</span>
                 <br/>
                 <strong>Location:</strong>
                 <br/>
-                <span id="profileLocation" class="abraType">Ann Arbor, MI</span>
+                <span id="profileLocation" class="abraType">Chicago, IL</span>
                 <br/>
                 <strong>Favorite Language:</strong>
                 <br/>
                 <span id="profileFavLanguage" class="abraType">Java</span>
+                <br/>
+                <strong>Currently Learning:</strong>
+                <br/>
+                <span id="profileLearningLanguage" class="abraType">(Clojure)</span>
               </span>
             </p> 
         </div>        
