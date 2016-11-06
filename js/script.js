@@ -83,7 +83,7 @@ $(function() {
             if (target.length) {
                 $('html,body').animate({
                     scrollTop: target.offset().top
-                }, 2000);
+                }, 1000);
                 return false;
             }
         }
@@ -92,11 +92,11 @@ $(function() {
 
 
 /**
-   * Determine the mobile operating system.
-    * This function either returns 'iOS', 'Android' or 'unknown'
-     *
-      * @returns {String}
-       */
+* Determine the mobile operating system.
+* This function either returns 'iOS', 'Android' or 'unknown'
+*
+* @returns {String}
+*/
 function getMobileOperatingSystem() {
     var userAgent = navigator.userAgent || navigator.vendor || window.opera;
     if( userAgent.match( /iPad/i ) || userAgent.match( /iPhone/i ) || userAgent.match( /iPod/i ) )

@@ -1,6 +1,6 @@
-<?php include('includes/header.php'); ?> 
+<?php include('includes/header.php'); ?>
 <body data-spy="scroll" data-target="#navEl">
-<div> 
+<div>
     <div id="Home" class="cover" data-src="/images/background.jpg" data-position="bottom right">
         <?php include('home.php'); ?>
     </div>
