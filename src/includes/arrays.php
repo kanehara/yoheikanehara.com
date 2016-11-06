@@ -36,12 +36,6 @@
             "key" => "#Skills",
             "value" => "Skills"
         ),
-      /*
-        array (
-           "key" => "#Portfolio",
-            "value" => "Portfolio"
-        ),
-      */
         array (
             "key" => "#Contact",
             "value" => "Contact"

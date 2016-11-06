@@ -10,7 +10,7 @@
             </p>
         </div>
         <div class="col-md-4 text-center abraAppear">
-            <img src="../images/kanehara.jpg" alt="Yohei Kanehara" class="profileImage"/>
+            <img src="/src/images/kanehara.jpg" alt="Yohei Kanehara" class="profileImage"/>
         </div>
         <div class="col-md-4 abraAppear">
             <h3>Details</h3>
@@ -22,7 +22,7 @@
                 <br/>
                 <strong>Age:</strong>
                 <br/>
-                <span id="profileAge" class="abraType">22</span>
+                <span id="profileAge" class="abraType">23</span>
                 <br/>
                 <strong>Location:</strong>
                 <br/>

@@ -1,4 +1,4 @@
-<?php include('includes/arrays.php'); ?>
+<?php include('arrays.php'); ?>
 <nav id="navEl">
 <ul id="navHeader" class="nav masthead-nav">
     <?php
